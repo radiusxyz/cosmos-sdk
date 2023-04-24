@@ -77,7 +77,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d // indirect
 	github.com/celestiaorg/go-cnc v0.3.0 // indirect
-	github.com/celestiaorg/go-header v0.2.1 // indirect
+	github.com/celestiaorg/go-header v0.2.3 // indirect
 	github.com/celestiaorg/go-libp2p-messenger v0.2.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
@@ -230,7 +230,7 @@ require (
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/dig v1.15.0 // indirect
 	go.uber.org/fx v1.18.2 // indirect
-	go.uber.org/multierr v1.10.0 // indirect
+	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
 	golang.org/x/mod v0.8.0 // indirect
 	golang.org/x/net v0.8.0 // indirect
@@ -258,8 +258,8 @@ replace (
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 
 	github.com/jhump/protoreflect => github.com/jhump/protoreflect v1.9.0
+	github.com/rollkit/rollkit => github.com/radiusxyz/rollkit v0.0.1
 	github.com/tendermint/tendermint => github.com/celestiaorg/tendermint v0.34.22-0.20221202214355-3605c597500d
-  github.com/rollkit/rollkit => ../rollkit
 )
 
 retract (
