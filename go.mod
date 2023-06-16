@@ -18,7 +18,7 @@ require (
 	github.com/cosmos/cosmos-proto v1.0.0-alpha7
 	github.com/cosmos/cosmos-sdk/db v1.0.0-beta.1
 	github.com/cosmos/go-bip39 v1.0.0
-	github.com/cosmos/iavl v0.19.4
+	github.com/cosmos/iavl v0.21.1
 	github.com/cosmos/ledger-cosmos-go v0.12.1
 	github.com/gogo/gateway v1.1.0
 	github.com/gogo/protobuf v1.3.3
@@ -48,7 +48,7 @@ require (
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.15.0
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.4
 	github.com/tendermint/btcd v0.1.1
 	github.com/tendermint/crypto v0.0.0-20191022145703-50d29ede1e15
 	github.com/tendermint/go-amino v0.16.0
@@ -71,6 +71,8 @@ require (
 	cloud.google.com/go/storage v1.27.0 // indirect
 	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
 	github.com/ChainSafe/go-schnorrkel v0.0.0-20200405005733-88cbf1b4c40d // indirect
+	github.com/DataDog/zstd v1.5.0 // indirect
+	github.com/HdrHistogram/hdrhistogram-go v1.1.2 // indirect
 	github.com/Workiva/go-datastructures v1.0.53 // indirect
 	github.com/aws/aws-sdk-go v1.40.45 // indirect
 	github.com/benbjohnson/clock v1.3.0 // indirect
@@ -82,9 +84,17 @@ require (
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
+	github.com/cockroachdb/errors v1.8.1 // indirect
+	github.com/cockroachdb/logtags v0.0.0-20190617123548-eb05cc24525f // indirect
+	github.com/cockroachdb/pebble v0.0.0-20220817183557-09c6e030a677 // indirect
+	github.com/cockroachdb/redact v1.0.8 // indirect
+	github.com/cockroachdb/sentry-go v0.6.1-cockroachdb.2 // indirect
 	github.com/containerd/cgroups v1.0.4 // indirect
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
+	github.com/cosmos/cosmos-db v0.0.0-20220822060143-23a8145386c0 // indirect
+	github.com/cosmos/gogoproto v1.4.3 // indirect
 	github.com/cosmos/gorocksdb v1.2.0 // indirect
+	github.com/cosmos/ics23/go v0.10.0 // indirect
 	github.com/creachadair/taskgroup v0.3.2 // indirect
 	github.com/danieljoos/wincred v1.0.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -115,7 +125,7 @@ require (
 	github.com/golang/glog v1.0.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/snappy v0.0.4 // indirect
-	github.com/google/btree v1.0.1 // indirect
+	github.com/google/btree v1.1.2 // indirect
 	github.com/google/flatbuffers v2.0.0+incompatible // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
@@ -155,6 +165,8 @@ require (
 	github.com/klauspost/compress v1.15.12 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.3 // indirect
 	github.com/koron/go-ssdp v0.0.3 // indirect
+	github.com/kr/pretty v0.3.1 // indirect
+	github.com/kr/text v0.2.0 // indirect
 	github.com/lib/pq v1.10.6 // indirect
 	github.com/libp2p/go-buffer-pool v0.1.0 // indirect
 	github.com/libp2p/go-cidranger v1.1.0 // indirect
@@ -170,6 +182,7 @@ require (
 	github.com/libp2p/go-netroute v0.2.1 // indirect
 	github.com/libp2p/go-reuseport v0.2.0 // indirect
 	github.com/libp2p/go-yamux/v4 v4.0.0 // indirect
+	github.com/linxGnu/grocksdb v1.7.4 // indirect
 	github.com/marten-seemann/tcp v0.0.0-20210406111302-dfbc87cc63fd // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
@@ -211,6 +224,7 @@ require (
 	github.com/quic-go/webtransport-go v0.5.2 // indirect
 	github.com/raulk/go-watchdog v1.3.0 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
+	github.com/rogpeppe/go-internal v1.9.0 // indirect
 	github.com/rs/cors v1.8.3 // indirect
 	github.com/sasha-s/go-deadlock v0.3.1 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
