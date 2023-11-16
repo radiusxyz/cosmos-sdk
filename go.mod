@@ -45,7 +45,7 @@ require (
 	github.com/rollkit/rollkit v0.7.3
 	github.com/rs/zerolog v1.27.0
 	github.com/spf13/cast v1.5.0
-	github.com/spf13/cobra v1.6.1
+	github.com/spf13/cobra v1.8.0
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.15.0
 	github.com/stretchr/testify v1.8.2
@@ -137,7 +137,7 @@ require (
 	github.com/hashicorp/golang-lru/v2 v2.0.1 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/huin/goupnp v1.0.3 // indirect
-	github.com/inconshreveable/mousetrap v1.0.1 // indirect
+	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/ipfs/boxo v0.8.0-rc1 // indirect
 	github.com/ipfs/go-cid v0.4.0 // indirect
 	github.com/ipfs/go-datastore v0.6.0 // indirect
