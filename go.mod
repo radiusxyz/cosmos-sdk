@@ -60,7 +60,7 @@ require (
 	google.golang.org/grpc v1.52.0
 	google.golang.org/protobuf v1.30.0
 	pgregory.net/rapid v0.4.7
-	sigs.k8s.io/yaml v1.3.0
+	sigs.k8s.io/yaml v1.4.0
 )
 
 require (
@@ -244,7 +244,6 @@ require (
 	google.golang.org/api v0.107.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/blake3 v1.1.7 // indirect
 	nhooyr.io/websocket v1.8.7 // indirect
