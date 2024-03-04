@@ -8,7 +8,6 @@ require (
 	github.com/99designs/keyring v1.2.1
 	github.com/armon/go-metrics v0.4.0
 	github.com/bgentry/speakeasy v0.1.0
-	github.com/btcsuite/btcd v0.22.1
 	github.com/celestiaorg/smt v0.3.0
 	github.com/chzyer/readline v1.5.0
 	github.com/cockroachdb/apd/v2 v2.0.2
