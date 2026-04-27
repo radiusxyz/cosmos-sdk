@@ -1,4 +1,4 @@
-go 1.18
+go 1.23
 
 module github.com/cosmos/cosmos-sdk
 
@@ -58,7 +58,7 @@ require (
 	golang.org/x/exp v0.0.0-20230213192124-5e25df0256eb
 	google.golang.org/genproto v0.0.0-20221227171554-f9683d7f8bef
 	google.golang.org/grpc v1.52.0
-	google.golang.org/protobuf v1.30.0
+	google.golang.org/protobuf v1.36.11
 	pgregory.net/rapid v0.4.7
 	sigs.k8s.io/yaml v1.3.0
 )
@@ -117,7 +117,7 @@ require (
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/btree v1.0.1 // indirect
 	github.com/google/flatbuffers v2.0.0+incompatible // indirect
-	github.com/google/go-cmp v0.5.9 // indirect
+	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
 	github.com/google/orderedcode v0.0.1 // indirect
 	github.com/google/pprof v0.0.0-20221203041831-ce31453925ec // indirect
