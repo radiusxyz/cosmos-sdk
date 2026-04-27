@@ -1,4 +1,4 @@
-go 1.18
+go 1.23.2
 
 module github.com/cosmos/cosmos-sdk
 
@@ -8,7 +8,6 @@ require (
 	github.com/99designs/keyring v1.2.1
 	github.com/armon/go-metrics v0.4.0
 	github.com/bgentry/speakeasy v0.1.0
-	github.com/btcsuite/btcd v0.22.1
 	github.com/celestiaorg/smt v0.3.0
 	github.com/chzyer/readline v1.5.0
 	github.com/cockroachdb/apd/v2 v2.0.2
@@ -48,18 +47,18 @@ require (
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.15.0
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.4
 	github.com/tendermint/btcd v0.1.1
 	github.com/tendermint/crypto v0.0.0-20191022145703-50d29ede1e15
 	github.com/tendermint/go-amino v0.16.0
 	github.com/tendermint/tendermint v0.34.24
 	github.com/tendermint/tm-db v0.6.7
-	golang.org/x/crypto v0.7.0
+	golang.org/x/crypto v0.25.0
 	golang.org/x/exp v0.0.0-20230213192124-5e25df0256eb
 	google.golang.org/genproto v0.0.0-20221227171554-f9683d7f8bef
 	google.golang.org/grpc v1.52.0
 	google.golang.org/protobuf v1.30.0
-	pgregory.net/rapid v0.4.7
+	pgregory.net/rapid v1.2.0
 	sigs.k8s.io/yaml v1.3.0
 )
 
@@ -76,6 +75,7 @@ require (
 	github.com/benbjohnson/clock v1.3.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d // indirect
+	github.com/btcsuite/btcd/btcec/v2 v2.3.5 // indirect
 	github.com/celestiaorg/go-cnc v0.3.0 // indirect
 	github.com/celestiaorg/go-header v0.2.3 // indirect
 	github.com/celestiaorg/go-libp2p-messenger v0.2.0 // indirect
@@ -117,7 +117,7 @@ require (
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/btree v1.0.1 // indirect
 	github.com/google/flatbuffers v2.0.0+incompatible // indirect
-	github.com/google/go-cmp v0.5.9 // indirect
+	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
 	github.com/google/orderedcode v0.0.1 // indirect
 	github.com/google/pprof v0.0.0-20221203041831-ce31453925ec // indirect
@@ -232,14 +232,14 @@ require (
 	go.uber.org/fx v1.18.2 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
-	golang.org/x/mod v0.8.0 // indirect
-	golang.org/x/net v0.8.0 // indirect
+	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/net v0.25.0 // indirect
 	golang.org/x/oauth2 v0.4.0 // indirect
-	golang.org/x/sync v0.1.0 // indirect
-	golang.org/x/sys v0.6.0 // indirect
-	golang.org/x/term v0.6.0 // indirect
-	golang.org/x/text v0.8.0 // indirect
-	golang.org/x/tools v0.6.0 // indirect
+	golang.org/x/sync v0.7.0 // indirect
+	golang.org/x/sys v0.22.0 // indirect
+	golang.org/x/term v0.22.0 // indirect
+	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/api v0.107.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
